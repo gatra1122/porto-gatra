@@ -85,8 +85,7 @@ function App() {
       </nav>
       <div className="space-y-12">
         {/* MARK: HEADER */}
-        <section
-          className="bg-blue-100 flex items-center justify-center pt-16 overflow-hidden">
+        <section className="bg-blue-100 flex items-center justify-center pt-16 overflow-hidden">
           <div className="text-center flex flex-col md:flex-row items-center gap-2 md:gap-12">
             <div className="relative max-w-46 md:max-w-62 mx-auto">
               <img
@@ -127,12 +126,13 @@ function App() {
                 <span className="italic">
                   Framework Laravel
                 </span>
-                dan <span className="italic">React</span>,
-                serta keterampilan dalam mengoperasikan
-                komputer. Mampu bekerja secara mandiri
-                maupun dalam tim, dan berkomitmen untuk
-                terus mengembangkan keahlian di bidang
-                teknologi informasi.
+                {" "}dan{" "}
+                <span className="italic">React</span>, serta
+                keterampilan dalam mengoperasikan komputer.
+                Mampu bekerja secara mandiri maupun dalam
+                tim, dan berkomitmen untuk terus
+                mengembangkan keahlian di bidang teknologi
+                informasi.
               </p>
               <br />
               <div className="inline-flex items-center gap-1">

@@ -167,12 +167,18 @@ function App() {
                   tingkat dasar.
                 </li>
                 <li>
+                  * Mengoperasikan aplikasi{" "}
+                  <span className="italic">Photoshop</span> dan{" "}
+                  <span className="italic">Premiere Pro</span> pada
+                  tingkat dasar.
+                </li>
+                <li>
                   * Memahami{" "}
                   <span className="italic">
                     framework Laravel
                   </span>{" "}
                   dan <span className="italic">React</span>{" "}
-                  pada tingkat dasar hingga menengah.
+                  pada tingkat dasar
                 </li>
               </ul>
             </div>

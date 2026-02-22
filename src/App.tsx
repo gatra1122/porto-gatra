@@ -225,7 +225,12 @@ function App() {
 
               <div className="space-y-2 py-2 px-4">
                 <h4 className="text-lg md:text-xl font-semibold">
-                  MEDISIPENA (2024)
+                  <a
+                    href="https://drive.google.com/file/d/1a-6GT18gtpLB_Tb5Ucps6uRwoyBN2cMu/view?usp=sharing"
+                    className="underline"
+                    target="_blank">
+                    MEDISIPENA (2024)
+                  </a>
                 </h4>
                 <img
                   src={medisipena}

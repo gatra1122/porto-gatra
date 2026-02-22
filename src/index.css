@@ -6,7 +6,8 @@
   --primary-dark: #0B3D91;
   --accent: #00AEEF;
   --bg: #F8FBFF;
-  --text-dark: #062A58;
+  --text-dark: #1e4c88;
+  /* --text-dark: #062A58; */
   --white: #ffffff;
 }
 
@@ -15,6 +16,7 @@ body{
   color: var(--text-dark);
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
   margin: 0;
+  font-size: 1.1rem;
 }
 
 .menu-nav li{

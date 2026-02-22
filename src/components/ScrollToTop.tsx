@@ -23,11 +23,11 @@ function ScrollToTop() {
   return (
     <button
       onClick={scrollTop}
-      className={`fixed hover:cursor-pointer right-5 bottom-5 p-2 rounded-full active:scale-90 bg-(--primary) text-white transition-all duration-300 ${
+      className={`fixed hover:cursor-pointer right-5 bottom-5 p-2 rounded-full active:scale-90 bg-blue-200 shadow-sm text-white transition-all duration-300 ${
         visible ? "opacity-100" : "opacity-0 pointer-events-none"
       }`}
     >
-      <MdArrowUpward />
+      <MdArrowUpward className="text-[#1e4c88]" />
     </button>
   );
 }

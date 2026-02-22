@@ -8,6 +8,12 @@ import webpins from "./assets/webprofile-inspektorat.jpg";
 import simpati from "./assets/simpati.jpg";
 import {useRef, useState} from "react";
 import {MdMail} from "react-icons/md";
+import {
+  FaLinkedin,
+  FaInfoCircle,
+  FaCogs,
+  FaProjectDiagram
+} from "react-icons/fa";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
@@ -113,7 +119,8 @@ function App() {
           className="bg-gray-100 py-12"
           ref={tentangRef}>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4 scroll-mt-[70px]">
-            <h1 className="text-2xl md:text-4xl font-bold mb-5">
+            <h1 className="text-2xl md:text-4xl font-bold mb-5 inline-flex gap-2 items-center">
+              <FaInfoCircle className="text-2xl" />
               Tentang
             </h1>
             <div>
@@ -133,11 +140,24 @@ function App() {
                 teknologi informasi.
               </p>
               <br />
-              <div className="inline-flex items-center gap-1">
-                <MdMail />
-                <span className="italic">
-                  idrisgatra@gmail.com
-                </span>
+              <div className="flex flex-col gap-1">
+                <div className="inline-flex items-center gap-1">
+                  <MdMail />
+                  <a
+                    href="mailto:idrisgatra@gmail.com"
+                    className="italic underline">
+                    idrisgatra@gmail.com
+                  </a>
+                </div>
+                <div className="inline-flex items-center gap-1">
+                  <FaLinkedin />
+                  <a
+                    href="https://www.linkedin.com/in/idrisgatraputra/"
+                    className="underline"
+                    target="_blank">
+                    Idris Gatra Putra
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -147,7 +167,8 @@ function App() {
           className="py-12"
           ref={skillRef}>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4 scroll-mt-[70px]">
-            <h1 className="text-2xl md:text-4xl font-bold mb-5">
+            <h1 className="text-2xl md:text-4xl font-bold mb-5 inline-flex gap-2 items-center">
+              <FaCogs className="text-2xl"/>
               Kemampuan
             </h1>
             <div className="space-y-2">
@@ -181,7 +202,8 @@ function App() {
           className="bg-gray-100 py-12"
           ref={proyekRef}>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4 scroll-mt-[70px]">
-            <h1 className="text-2xl md:text-4xl font-bold mb-5">
+            <h1 className="text-2xl md:text-4xl font-bold mb-5 inline-flex gap-2 items-center">
+              <FaProjectDiagram className="text-2xl"/>
               Proyek
             </h1>
             <div className="lg:grid lg:grid-cols-2 lg:gap-2">
@@ -332,7 +354,7 @@ function App() {
             </div>
           </div>
         </section>
-        <footer className="bg-blue-400 py-4">
+        <footer className="bg-[#1e4c88] py-4">
           <div className="max-w-1/2 mx-auto text-center">
             <span className="font-semibold text-white">
               © 2025 Idris Gatra Putra, Made With React

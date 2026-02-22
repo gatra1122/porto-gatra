@@ -125,14 +125,13 @@ function App() {
                 mengembangkan aplikasi menggunakan{" "}
                 <span className="italic">
                   Framework Laravel
-                </span>
-                {" "}dan{" "}
-                <span className="italic">React</span>, serta
-                keterampilan dalam mengoperasikan komputer.
-                Mampu bekerja secara mandiri maupun dalam
-                tim, dan berkomitmen untuk terus
-                mengembangkan keahlian di bidang teknologi
-                informasi.
+                </span>{" "}
+                dan <span className="italic">React</span>,
+                serta keterampilan dalam mengoperasikan
+                komputer. Mampu bekerja secara mandiri
+                maupun dalam tim, dan berkomitmen untuk
+                terus mengembangkan keahlian di bidang
+                teknologi informasi.
               </p>
               <br />
               <div className="inline-flex items-center gap-1">
@@ -168,9 +167,12 @@ function App() {
                 </li>
                 <li>
                   * Mengoperasikan aplikasi{" "}
-                  <span className="italic">Photoshop</span> dan{" "}
-                  <span className="italic">Premiere Pro</span> pada
-                  tingkat dasar.
+                  <span className="italic">Photoshop</span>{" "}
+                  dan{" "}
+                  <span className="italic">
+                    Premiere Pro
+                  </span>{" "}
+                  pada tingkat dasar.
                 </li>
                 <li>
                   * Memahami{" "}
@@ -196,7 +198,12 @@ function App() {
           <div className="lg:grid lg:grid-cols-2 lg:gap-2">
             <div className="py-2 px-4 space-y-2">
               <h4 className="text-lg md:text-xl font-semibold">
-                E-MAHABBAH (2025)
+                <a
+                  href="https://e-mahabbah.bengkuluutarakab.go.id/"
+                  className="underline"
+                  target="_blank">
+                  E-MAHABBAH (2025)
+                </a>
               </h4>
               <img
                 src={emahabbah}
@@ -262,7 +269,12 @@ function App() {
 
             <div className="space-y-2 py-2 px-4">
               <h4 className="text-lg md:text-xl font-semibold">
-                Web Profile (2024)
+                <a
+                  href="https://inspektorat.bengkuluutarakab.go.id/"
+                  className="underline"
+                  target="_blank">
+                  Web Profile (2024)
+                </a>
               </h4>
               <img
                 src={webpins}
